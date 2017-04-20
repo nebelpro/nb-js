@@ -1,0 +1,19 @@
+{
+  "name": "nb-js",
+  "version": "0.0.3",
+  "description": "ext lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebelpro/nb-js.git"
+  },
+  "author": "nebel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nebelpro/nb-js/issues"
+  },
+  "homepage": "https://github.com/nebelpro/nb-js#readme"
+}
