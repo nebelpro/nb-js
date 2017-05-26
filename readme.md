@@ -8,3 +8,10 @@ libs: 以函数文件为功能的基础库
 - momentjs
 
       删除locale,只保留 zh-cn,以代码内置的en
+
+
+## 规范  
+
+export 的方式
+  
+      export let nameS
