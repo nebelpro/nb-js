@@ -5,3 +5,11 @@ export let countLines = function (ele) {
 
   return Math.round(h / lh);
 }
+
+export let singleLineHeight = function (el) {
+  var styles = window.getComputedStyle(ele, null);
+  var fontSize = parseInt(styles.fontSize, 10);
+  var h = parseInt(styles.height, 10);
+
+  return h / fontSize
+}
