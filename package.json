@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/nebelpro/nb-js#readme",
   "dependencies": {
+    "fecha": "^2.3.3",
     "n2c": "^1.0.13"
   }
 }

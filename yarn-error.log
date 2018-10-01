@@ -1,0 +1,68 @@
+Arguments: 
+  /usr/local/bin/node /Users/nebel/.yarn/bin/yarn.js add fechat -S
+
+PATH: 
+  /Users/nebel/devenv/gradle-4.1/bin:/Users/nebel/Library/Android/android-sdk-macosx/tools:/Users/nebel/Library/Android/android-sdk-macosx/platform-tools:/Users/nebel/.yarn/bin:/Users/nebel/.config/yarn/global/node_modules/.bin:/usr/local/Cellar/pyenv-virtualenv/1.1.1/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/fechat: Not found
+      at Request.params.callback [as _callback] (/Users/nebel/.yarn/lib/cli.js:61073:18)
+      at Request.self.callback (/Users/nebel/.yarn/lib/cli.js:120166:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/nebel/.yarn/lib/cli.js:121138:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/nebel/.yarn/lib/cli.js:121060:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1090:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "nb-js",
+    "version": "0.0.8",
+    "description": "ext lib",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nebelpro/nb-js.git"
+    },
+    "author": "nebel",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nebelpro/nb-js/issues"
+    },
+    "devDependencies": {
+      "eslint": "^3.19.0",
+      "eslint-config-airbnb-base": "^11.1.2",
+      "eslint-config-standard": "^7.1.0",
+      "eslint-friendly-formatter": "^2.0.7",
+      "eslint-loader": "^1.7.1",
+      "eslint-plugin-html": "^2.0.1",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^2.1.1"
+    },
+    "homepage": "https://github.com/nebelpro/nb-js#readme",
+    "dependencies": {
+      "n2c": "^1.0.13"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
